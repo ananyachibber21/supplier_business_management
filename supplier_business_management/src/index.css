@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply bg-almond
+}
+
+.app-main{
+    @apply flex flex-col items-center justify-center h-screen space-y-5
+}
+
+.app-main-btn{
+    @apply bg-light-brown text-almond bg-center mx-10 py-4 px-6 w-60 hover:bg-dark-brown rounded
+}
